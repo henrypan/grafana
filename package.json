@@ -63,7 +63,9 @@
   "scripts": {
     "build": "grunt",
     "test": "grunt test",
-    "coveralls": "grunt karma:coveralls && rm -rf ./coverage"
+    "coveralls": "grunt karma:coveralls && rm -rf ./coverage",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "license": "Apache-2.0",
   "dependencies": {
@@ -79,6 +81,8 @@
     "tether": "^1.2.0",
     "tether-drop": "^1.4.2",
     "tslint": "^3.4.0",
-    "typescript": "^1.7.5"
-  }
+    "typescript": "^1.7.5",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
