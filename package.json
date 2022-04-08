@@ -75,7 +75,7 @@
     "lodash": "^2.4.1",
     "remarkable": "^1.6.2",
     "sinon": "1.16.1",
-    "systemjs-builder": "^0.15.13",
+    "systemjs-builder": "^0.16.0",
     "tether": "^1.2.0",
     "tether-drop": "^1.4.2",
     "tslint": "^3.4.0",
