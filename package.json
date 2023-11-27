@@ -73,12 +73,12 @@
     "grunt-sync": "^0.4.1",
     "karma-sinon": "^1.0.3",
     "lodash": "^2.4.1",
-    "remarkable": "^1.6.2",
+    "remarkable": "^2.0.0",
     "sinon": "1.16.1",
     "systemjs-builder": "^0.15.13",
     "tether": "^1.2.0",
     "tether-drop": "^1.4.2",
-    "tslint": "^3.4.0",
+    "tslint": "^5.4.0",
     "typescript": "^1.7.5"
   }
 }
